@@ -1,5 +1,5 @@
 ---
-
+import '../styles/base.css'
 ---
 
 <html lang="en">
@@ -11,11 +11,29 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
 	</head>
-	<body>
-		<h1>Hoi ik ben Donovan Feller</h1>
+	<body style="background: darkseagreen">
+        <!--<img src=""/>           eventuele foto toevoegen-->
+		<h1>Hé, ik ben Donovan Feller</h1>
+        <section class="introduction">
+            <p class="intro-description-big">
+                Ik ben een Full Stack Developer met een sterke interesse voor AI/ML en UX/UI.
+                Het werken in een mix van backend en frontend is voor mij vanzelfsprekend geworden, hierdoor kan ik projecten van idee tot eindproduct brengen.
+                Ik combineer mijn technische kennis met mijn passie voor UX en maak efficiënt gebruik van AI om processen te versnellen.
+                In mijn vrije tijd heb ik mijn eigen onderneming waarin ik mij focus op het bouwen van website's naar de wensen van mijn klanten.
+            </p>
+            <p class="intro-description-medium">
+                Mijn interesse voor software is allemaal begonnen bij het willen werken in een vakgebied waarin ik mijn creativiteit kan uiten gepaard met nieuwsgierigheid in de technische mogelijkheden en diversiteit van het vakgebeid.
+            </p>
+            <ul>
+                <li>2+ jaar ervaring</li>
+                <li>8+ projecten</li>
+                <li>7+ technieken</li>
+            </ul>
+            <button class="button-cta">Hire me!</button>
+        </section>
 
-        <p>ervaren se</p>
-        <p>gedreven...</p>
-        <p>communicatief sterk</p>
+        <!--<p>ervaren se</p>-->
+        <!--<p>gedreven...</p>-->
+        <!--<p>communicatief sterk</p>-->
 	</body>
 </html>

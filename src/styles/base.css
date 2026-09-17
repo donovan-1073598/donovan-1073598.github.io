@@ -1,4 +1,4 @@
-body { font-family: system-ui, Arial; color: white }
+body { font-family: system-ui, Arial; color: #E2E8F0 }
 
 .center-project-images{
     display: flex;
@@ -9,4 +9,58 @@ body { font-family: system-ui, Arial; color: white }
 .project-images{
     width: 95%;
     height: auto;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.intro-description-big{
+    text-align: center;
+    font-size: 22px
+}
+
+.intro-description-medium{
+    text-align: center;
+    font-size: 18px
+}
+.personal-text{
+    text-align: center;
+    font-size: 18px
+}
+
+.quality-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.button-cta{
+    background-color: #34D399;
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 24px
+}
+
+.exp-images{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+.find-me-images{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    gap: 10px;
 }

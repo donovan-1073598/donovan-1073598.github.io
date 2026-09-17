@@ -1,1 +1,12 @@
-body { font-family: system-ui, Arial  }
+body { font-family: system-ui, Arial; color: white }
+
+.center-project-images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-images{
+    width: 95%;
+    height: auto;
+}
